@@ -38,7 +38,7 @@ public class Rectangle {
 	 * Sees if the rectangle is a square
 	 * @return
 	 */
-	public boolean isSquare() {
+	public boolean isSquare(String[] args) {
 		if (length == width) { //we can use length and width because they are private
 			return true;
 		}
